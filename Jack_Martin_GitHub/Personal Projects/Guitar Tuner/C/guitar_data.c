@@ -78,10 +78,10 @@ void determineNote(float freq){
             printf("Note: C%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: C%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: C%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: C%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: C%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[2]);
@@ -92,10 +92,10 @@ void determineNote(float freq){
             printf("Note: C#%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: C#%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: C#%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: C#%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: C#%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[2] &= 0xFF);
@@ -106,10 +106,10 @@ void determineNote(float freq){
             printf("Note: D%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: D%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: D%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: D%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: D%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[3]);
@@ -120,10 +120,10 @@ void determineNote(float freq){
             printf("Note: D#%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: D#%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: D#%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: D#%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: D#%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[3] &= 0xFF);
@@ -134,10 +134,10 @@ void determineNote(float freq){
             printf("Note: E%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: E%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: E%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: E%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: E%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[4]);
@@ -148,10 +148,10 @@ void determineNote(float freq){
             printf("Note: F%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: F%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: F%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: F%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: F%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[5]);
@@ -162,10 +162,10 @@ void determineNote(float freq){
             printf("Note: F#%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: F#%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: F#%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: F#%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: F#%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[5] &= 0xFF);
@@ -176,10 +176,10 @@ void determineNote(float freq){
             printf("Note: G%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: G%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: G%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: G%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: G%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[6]);
@@ -190,10 +190,10 @@ void determineNote(float freq){
             printf("Note: G#%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: G#%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: G#%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: G#%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: G#%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[6] &= 0xFF);
@@ -204,10 +204,10 @@ void determineNote(float freq){
             printf("Note: A%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: A%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: A%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: A%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: A%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[0]);
@@ -218,10 +218,10 @@ void determineNote(float freq){
             printf("Note: A#%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: A#%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: A#%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: A#%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: A#%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[0] &= 0xFF);
@@ -232,10 +232,10 @@ void determineNote(float freq){
             printf("Note: B%d - %f\t%f\tGood Enough...\n", musicData.pitch, noteFreq, freq);
         }
         else if(musicData.freq_diff > 1){
-            printf("Note: B%d - %f\t%f\tUnder ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: B%d - %f\t%f\tUnder Note\n", musicData.pitch, noteFreq, freq);
         }
         else {
-            printf("Note: B%d - %f\t%f\tOver ya cunt\n", musicData.pitch, noteFreq, freq);
+            printf("Note: B%d - %f\t%f\tOver Note\n", musicData.pitch, noteFreq, freq);
         }
 
         //sendDataTask2(letters[1]);
